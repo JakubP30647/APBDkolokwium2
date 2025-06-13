@@ -1,4 +1,4 @@
-using grF.DTOs;
+using APBDkolokwium2.DTOs;
 
 namespace APBDkolokwium2.Services;
 

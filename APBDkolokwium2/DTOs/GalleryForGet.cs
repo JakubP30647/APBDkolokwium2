@@ -1,4 +1,4 @@
-namespace grF.DTOs;
+namespace APBDkolokwium2.DTOs;
 
 public class GalleryForGet
 {

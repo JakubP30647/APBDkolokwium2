@@ -1,6 +1,6 @@
 using apbd_kolowium2.Exceptions;
-using grF.DTOs;
-using grF.Models;
+using APBDkolokwium2.DTOs;
+using APBDkolokwium2.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace APBDkolokwium2.Services;

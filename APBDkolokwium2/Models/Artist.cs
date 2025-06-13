@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace grF.Models;
+namespace APBDkolokwium2.Models;
 
 [Table("Artist")]
 public class Artist

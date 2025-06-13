@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace grF.Models;
+namespace APBDkolokwium2.Models;
 
 [Table("Exhibition_Artwork")]
 [PrimaryKey(nameof(ExhibitionId), nameof(ArtworkId))]
