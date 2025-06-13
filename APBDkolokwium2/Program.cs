@@ -2,6 +2,7 @@
 
 
 using APBDkolokwium2;
+using APBDkolokwium2.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,8 +13,8 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 );
 
 
-// builder.Services.AddScoped<>();
-// builder.Services.AddScoped<>();
+builder.Services.AddScoped<IGalleryService, GalleryService>();
+builder.Services.AddScoped<IExhibitionService, ExhibitionService>();
 
 
 var app = builder.Build();

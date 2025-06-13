@@ -10,16 +10,16 @@ public class GalleryForGet
 
 public class ExhibitionForGet
 {
-    public string title { get; set; }
+    public string Title { get; set; }
     public DateTime StartDate { get; set; }
-    public DateTime EndDate { get; set; }
+    public DateTime? EndDate { get; set; }
     public int NumberOfArtworks { get; set; }
     public ICollection<ArtworkForGet> Artworks { get; set; }
 }
 
 public class ArtworkForGet
 {
-    public string title { get; set; }
+    public string Title { get; set; }
     public int YearCreated { get; set; }
     public Decimal InsuranceValue { get; set; }
     public ArtistForGet Artist { get; set; }
