@@ -24,6 +24,13 @@ public class ExhibitionService : IExhibitionService
         try
         {
 
+            if (exhibitionForPost.Title == null || exhibitionForPost.Gallery == null || exhibitionForPost.StartDate == null)
+            {
+                throw new ConflictException("Nieprawidłowe Dane");
+            }
+            
+            
+            
             var gallery =  _context.Galleries
                 .FirstOrDefault(g => g.Name.Equals(exhibitionForPost.Gallery));
 

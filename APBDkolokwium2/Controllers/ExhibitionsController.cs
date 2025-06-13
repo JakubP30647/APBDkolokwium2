@@ -19,6 +19,13 @@ public class ExhibitionsController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> PostNewExhibition([FromBody] ExhibitionForPost exhibitionForPost)
     {
+
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        
+        
         try
         {
            await _service.PostExhibition(exhibitionForPost);
