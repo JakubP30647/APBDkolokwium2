@@ -9,15 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac4ee25a-464b-4146-ac54-3143db0270ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBDkolokwium2.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/APBDkolokwium2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/APBDkolokwium2.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/Data/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/DatabaseContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/Controllers/xController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/Services/IService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APBDkolokwium2/Services/Service.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBDkolokwium2/APBDkolokwium2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/APBDkolokwium2/APBDkolokwium2.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JakubP30647"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JakubP30647/APBDkolokwium2.git",
+    "accountId": "a7e69583-f94f-47cb-a345-a3d07c764bb3"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -40,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,15 +97,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749810621600</updated>
-      <workItem from="1749810622939" duration="365000" />
+      <workItem from="1749810622939" duration="4533000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1749811689741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749811689741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
 </project>
